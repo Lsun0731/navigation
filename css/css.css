@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.le-customize-body {}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #4e6ef2;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fff;
+    height: 50px;
+}
+
+.nav a,
+.nav span {
+    margin: 0 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.baidu-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.search-input {
+    height: 40px;
+    border-top: 2px solid #c4c7ce;
+    border-left: 2px solid #c4c7ce;
+    border-bottom: 2px solid #c4c7ce;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    padding: 5px 10px;
+    width: 450px;
+}
+
+#search:focus {
+    border-color: #4e6ef2;
+    outline: none;
+}
+
+.search-btn {
+    border-radius: 0 10px 10px 0;
+    height: 40px;
+    background-color: #4e6ef2;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    color: #fff;
+}
+
+.website-box {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.website-box>a {
+    width: 23%;
+    margin: 1%;
+}
+
+.website-box>a:hover>div {
+    /* text-decoration: none; */
+    background-color: #fff;
+    border-color: #c4c7ce;
+}
+
+
+.website-item {
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    border-radius: 10px;
+    min-height: 50px;
+    padding: 10px;
+    background-color: rgba(241, 243, 244, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.tool-box {
+    /* display: none; */
+    height: 100%;
+    /* width: 300px; */
+    width: 0;
+    /* opacity: 0; */
+    box-shadow: 0 0 16px rgb(0 0 0 / 28%);
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    border: 1px solid red;
+    top: 0;
+    transition: all 0.4s;
+}
